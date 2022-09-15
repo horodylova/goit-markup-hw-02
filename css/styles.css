@@ -1,21 +1,98 @@
+:root {
+    /* кольори */
+--background-primary: #f5f5f5;
+--background-second: #F5F4FA;
+--background-elements: #2F303A;
+--color-primary: #757575;
+--color-grey: #212121;
+--color-black: #000000;
+--color-blue: #2196f3;
+--color-white: #ffffff;
+}
+ 
+/* шрифти */
 .page {
-    background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-primary);
+    color: var(--color-primary);
+    line-height: 1,46;
+    letter-spacing: 3%;
 }
 
-/* другий колір тла F5F4FA
-третій колір тла 2F303A
+.link {
+    text-decoration: none;
+}
 
-основний колір тексту 757575
-другий колір тексту сірий 212121 
-третій колір тексту чорний 000000
-четвертий колір синій 2196F3
-п'ятий колір білий FFFFFF
-
-*/
-
-ul {
+.list {
     list-style: none;
 }
 
+/* хедер */
 
+.logo {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1;
+}
+
+.logo .logo-decorate {
+    color: var(--color-blue);
+}
+
+.nav {
+
+}
+.nav-list {
+}
+.nav-link {
+}
+.link {
+}
+.current {
+}
+.contacts {
+}
+.contacts-link {
+}
+.hero {
+}
+.hero-title {
+}
+.button {
+}
+.hidden {
+}
+.advantages {
+}
+.section {
+}
+.section-title {
+}
+.works {
+}
+.works-examples {
+}
+.team {
+}
+.team-photo {
+}
+.team-name {
+}
+.team-role {
+}
+.hidden {
+}
+.buttons-list {
+}
+.button {
+}
+.link {
+}
+.projects {
+}
+.projects-list {
+}
+.projects-photo {
+}
+.projects-title {
+}
 
