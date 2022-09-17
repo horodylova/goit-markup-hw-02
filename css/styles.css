@@ -13,10 +13,10 @@
 /* -------Загальні --------*/
 .page {
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     background-color: var(--background-primary);
     color: var(--color-primary);
-    line-height: 1.46;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
 
 .link {
@@ -46,16 +46,12 @@
     color: var(--color-blue);
 }
 
-.title {
-    text-align: center;
-}
-
 .section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    Line height: 42px;
-    letter-spacing: 3%;
+    text-align: center;
+
 }
 
 /* -----Хедер --- */
@@ -78,7 +74,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: var(--color-grey);
 }
 
@@ -90,7 +86,7 @@
 .contacts .contacts-link {
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: var(--color-primary)
 }
 
@@ -110,7 +106,8 @@
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
+    text-align: center;
 }
 .hero-button {
     background-color: var(--color-blue);
@@ -118,7 +115,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
 }
 
 /* -----Секція advantages-------*/
@@ -131,14 +128,12 @@
      font-weight: 700;
      font-size: 14px;
      line-height: 1.14;
-     letter-spacing: 3%;
      color: var(--color-grey);
      text-transform: uppercase;
 }
 
 .advantages .advantages-note {
      line-height: 1.71;
-     letter-spacing: 3%;
 }
 
 /* -------Секція Duties------- */
@@ -154,37 +149,73 @@
 
 /* -----Секція Team --------*/
 
-.team {
+/* .team {
 }
 .team-title {
 
+} */
+
+/* .team-list {
 }
-.title {
-}
-.team-list {
-}
-.list {
-}
+
 .team-icon {
+} */
+/* .team-photo {
+} */
+.team .team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
 }
-.team-photo {
+.team .team-role {
+    font-size: 16px;
+    text-align: center;
 }
-.team-name {
+
+.footer {
+    background-color: var(--background-elements);
 }
-.team-role {
+
+.address {
+    font: inherit;
 }
-.buttons-list {
+
+.address .post-address {
+    font-size: 14px;
+    color: var(--color-white);
+    line-height: 1.46;
 }
+
+.address-details {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* .buttons-list {
+} */
 .button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--color-grey);
+    background-color: var(--background-second);
 }
-.link {
-}
-.projects {
+
+/* .projects {
 }
 .projects-list {
 }
-.projects-photo {
-}
+.projects-item {
+} */
 .projects-title {
+    color: var(--color-grey);
+    font-weight: 700;
+    font-size:18px;
+    line-height: 1.71;
+    letter-spacing: 00.06em;
 }
 
+.projects-about {
+    font-size: 16px;
+    line-height: 1.6;
+}
