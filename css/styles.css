@@ -201,6 +201,11 @@
     background-color: var(--background-second);
 }
 
+.button:hover,
+.button:focus {
+    color: var(--color-blue);
+}
+
 /* .projects {
 }
 .projects-list {
