@@ -1,5 +1,5 @@
 :root {
-    /* кольори */
+    /* Кольори */
 --background-primary: #f5f5f5;
 --background-second: #F5F4FA;
 --background-elements: #2F303A;
@@ -10,28 +10,55 @@
 --color-white: #ffffff;
 }
  
-/* загальні */
+/* -------Загальні --------*/
 .page {
     font-family: 'Roboto', sans-serif;
     background-color: var(--background-primary);
     color: var(--color-primary);
-    line-height: 1,46;
+    line-height: 1.46;
     letter-spacing: 3%;
 }
 
 .link {
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 .list {
     list-style: none;
 }
 
-.hidden {
-    visibility: hidden;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.current {
+    color: var(--color-blue);
 }
 
-/* хедер */
+.title {
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    Line height: 42px;
+    letter-spacing: 3%;
+}
+
+/* -----Хедер --- */
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -43,14 +70,14 @@
     color: var(--color-blue);
 }
 
-.nav {
+/* .nav {
     
-}
+} */
 
 .nav-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 2%;
     color: var(--color-grey);
 }
@@ -60,13 +87,11 @@
     color: var(--color-blue);
 }
 
-.current {
-    color: var(--color-blue);
-}
-.contacts {
+.contacts .contacts-link {
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 2%;
+    color: var(--color-primary)
 }
 
 .contacts-link:hover,
@@ -74,7 +99,7 @@
     color: var(--color-blue);
 }
 
-/* секція хіро */
+/* -------Секція хіро------*/
 
 .hero {
     background-color: var(--background-elements);
@@ -84,7 +109,7 @@
     text-transform: uppercase;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     letter-spacing: 6%;
 }
 .hero-button {
@@ -92,40 +117,61 @@
     color: var(--color-white);
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,87;
+    line-height: 1.87;
     letter-spacing: 6%;
 }
 
-/* секція advantages */
+/* -----Секція advantages-------*/
 
-.advantages {
+/* .advantages {
 
-}
+} */
 
 .advantages .advantages-title {
-
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 3%;
+     color: var(--color-grey);
+     text-transform: uppercase;
 }
 
 .advantages .advantages-note {
+     line-height: 1.71;
+     letter-spacing: 3%;
+}
+
+/* -------Секція Duties------- */
+
+/* .duties {
+} */
+
+/* .duties-list {
 
 }
-.section {
-}
-.section-title {
-}
-.works {
-}
-.works-examples {
-}
+.duties-examples {
+} */
+
+/* -----Секція Team --------*/
+
 .team {
+}
+.team-title {
+
+}
+.title {
+}
+.team-list {
+}
+.list {
+}
+.team-icon {
 }
 .team-photo {
 }
 .team-name {
 }
 .team-role {
-}
-.hidden {
 }
 .buttons-list {
 }
