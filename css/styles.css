@@ -85,6 +85,7 @@
 }
 
 .contacts .contacts-link {
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -113,6 +114,9 @@
 .hero-button {
     background-color: var(--color-blue);
     color: var(--color-white);
+
+    font-family:'Roboto', sans-serif;;
+
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -175,10 +179,18 @@
     font: inherit;
 }
 
+.address,
+.post-address {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 2;
+}
+
 .address .post-address {
     font-size: 14px;
     color: var(--color-white);
     line-height: 1.46;
+    letter-spacing: 0,03em;
 }
 
 .address-details {
@@ -208,9 +220,15 @@
 }
 .projects-item {
 } */
+.button-portfolio {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1,62;
+}
+
 .projects-title {
     color: var(--color-grey);
-    
+
     font-weight: 700;
     font-size:18px;
     line-height: 1.71;
