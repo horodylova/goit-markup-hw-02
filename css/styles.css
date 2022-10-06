@@ -139,38 +139,27 @@
 
 /* -------Секція Duties------- */
 
-/* .duties {
-} */
-
-/* .duties-list {
-
+.duties-title {
+    color: var(--color-grey);
 }
-.duties-examples {
-} */
 
 /* -----Секція Team --------*/
 
-/* .team {
-}
 .team-title {
-
-} */
-
-/* .team-list {
+    color: var(--color-grey);
 }
 
-.team-icon {
-} */
-/* .team-photo {
-} */
 .team .team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
+
+    color: var(--color-grey);
 }
 .team .team-role {
     font-size: 16px;
+    line-height: 1,17;
     text-align: center;
 }
 
@@ -221,6 +210,7 @@
 } */
 .projects-title {
     color: var(--color-grey);
+    
     font-weight: 700;
     font-size:18px;
     line-height: 1.71;
@@ -230,4 +220,6 @@
 .projects-about {
     font-size: 16px;
     line-height: 1.6;
+
+    color: var(--color-primary)
 }
