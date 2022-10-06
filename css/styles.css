@@ -58,7 +58,8 @@
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    line-height: 1;
+    font-size: 26px;
+    line-height: 1,19;
     color: var(--color-black);
 }
 
